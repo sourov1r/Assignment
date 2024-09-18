@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Merriweather", serif;
+}
+
+.banner {
+    background-image: url(images/Banner.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:37rem;
+    margin: 15px 100px;
+}
+.happy-new-year-banner {
+    position: relative;
+    top: 190px;
+}
+.happy-new-year-title1{
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.happy-new-year-title2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 5.9375rem;
+}
