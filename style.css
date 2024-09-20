@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Merriweather", serif;
+    font-family: "Inter", sans-serif;;
 }
 
 /* Shared Property */
@@ -19,7 +20,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     display: block;
-    margin: 2rem auto;
+    margin: 3rem auto;
 }
 
 .new-year-wish {
@@ -30,39 +31,51 @@
 .new-year-wish h3 {
     font-size: 2rem;
     font-weight: 400;
+    padding-bottom: 1rem;
 }
 .new-year-wish h1 {
     font-size: 4.5rem;
     font-weight: 700;
-    line-height: 4.5rem;
+    line-height: 5rem;
 }
 
 
-/* Discount-Section */
+
+
+
+/* Part-2: Discount-Section */
 .discount {
     text-align: center;
+    margin: 6rem 0 3rem 0;
 }
 .discount-percentage {
     color: #f00;
     font-size: 5.5rem;
     font-weight: 700;
-    margin-bottom: 30px;
+    padding: 0 0 2rem 0;
 }
 .discount-description{
     color: #f00;
     font-size: 1.5rem;
     font-weight: 500;
-    padding: 15px 0;
+    padding-bottom: 1rem;
 }
 .discount-categories {
     color: #070211;
     font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 30px;
+    padding: 0 0 2rem 0;
+    
 }
 .discount-img {
-    width: 50%;
+    width: 50rem;
+    height: 30rem;
 }
+
+
+
+
+
 .midnight-party {
     background-image: url(images/Vectorrr.png);
     background-position: center;
